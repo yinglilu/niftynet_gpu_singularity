@@ -3,6 +3,7 @@ Bootstrap: docker
 
 From: continuumio/anaconda3:2019.03
 
+
 %post
 export PATH=/opt/conda/bin:$PATH
 
